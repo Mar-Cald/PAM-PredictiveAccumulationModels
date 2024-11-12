@@ -6,7 +6,7 @@ This work is still in progress. Currently, the initial volatility (v0) is fixed 
 
 ## Repository Structure
 * ## demo
-  - VKF_RDM_tutorial.Rmd: Simulation and Recovery of the combined VKF - Racing Diffusion Model (RDM; Tillman et al., 2020)
+  - VKF_RDM_tutorial.Rmd/md: Simulation and Recovery of the combined VKF - Racing Diffusion Model (RDM; Tillman et al., 2020)
   - u.rds : trial list (input)
 * ## utl
   - pdf_rdm.R : probability density function for the RDM
