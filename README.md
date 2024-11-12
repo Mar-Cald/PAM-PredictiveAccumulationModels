@@ -2,12 +2,12 @@
 
 This project is an R/Stan-based implementation of the PAM framework, incorporating the Volatile Kalman Filter (Piray & Daw, 2020) as the Perceptual Model. 
 
-#### NB 
+##### NB 
 This work is still in progress. Currently, the initial volatility (v0) is fixed at a value equal to omega, and the volatility learning rate (lambda) is set to 0.1. 
 
 ## Repository Structure
 ### - Demo
-  - VKF_RDM_tutorial.Rmd: Simulation and Recovery of the combined VKF and Racing Diffusion Model (RDM; Tillman et al., 2020)
+  - VKF_RDM_tutorial.Rmd: Simulation and Recovery of the combined VKF - Racing Diffusion Model (RDM; Tillman et al., 2020)
   - u.rds : trial list (input)
 ### - utl
   - pdf_rdm.R : probability density function for the RDM
