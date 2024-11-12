@@ -6,13 +6,13 @@ This work is still in progress. Currently, the initial volatility (v0) is fixed 
 
 ## Repository Structure
 ### - demo
-- VKF_RDM_tutorial.Rmd: Simulation and Recovery of the combined VKF - Racing Diffusion Model (RDM; Tillman et al., 2020)
-- u.rds : trial list (input)
+  - VKF_RDM_tutorial.Rmd: Simulation and Recovery of the combined VKF - Racing Diffusion Model (RDM; Tillman et al., 2020)
+  - u.rds : trial list (input)
 ### - utl
-- pdf_rdm.R : probability density function for the RDM
-- vkf_binary.R : VKF translated from matlab code (https://github.com/payampiray/VKF)
+  - pdf_rdm.R : probability density function for the RDM
+  - vkf_binary.R : VKF translated from matlab code (https://github.com/payampiray/VKF)
 ### - stan_models
-- vkf_fixed_rdm.stan: model file with v0 and lambda fixed (RDM code adapted from https://github.com/laurafontanesi/rlssm_R_workshop/blob/main/stan_models/RDM.stan)
+  - vkf_fixed_rdm.stan: model file with v0 and lambda fixed (RDM code adapted from https://github.com/laurafontanesi/rlssm_R_workshop/blob/main/stan_models/RDM.stan)
 
 
 ## References
