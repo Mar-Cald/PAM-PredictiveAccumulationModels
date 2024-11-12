@@ -70,9 +70,9 @@ vkf_bin = function(u,lambda,v0,omega){
     wcov        = (1-k)*wpre;                                      # Eq 18
     delta_v     = (m-mpre)^2 + w + wpre - 2*wcov - v;    
     v           = v + lambda*delta_v;                              # Eq 19
-    learning_rate[t] = alpha[t];
-    prediction_error[t] = delta_m[t];
-    volatility_error[t] = delta_v[t];
+    learning_rate[t] = alpha;
+    prediction_error[t] = delta_m;
+    volatility_error[t] = delta_v;
   }
   
   signals <- data.frame(
