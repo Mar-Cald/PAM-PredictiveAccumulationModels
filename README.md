@@ -5,10 +5,10 @@ This project is an R/Stan-based implementation of the PAM framework, incorporati
 This work is still in progress. Currently, the initial volatility (v0) is fixed at a value equal to omega, and the volatility learning rate (lambda) is set to 0.1. 
 
 ## Repository Structure
-### - Demo
+### Demo
   - VKF_RDM_tutorial.Rmd: Simulation and Recovery of the combined VKF - Racing Diffusion Model (RDM; Tillman et al., 2020)
   - u.rds : trial list (input)
-### - utl
+### utl
   - pdf_rdm.R : probability density function for the RDM
   - vkf_binary.R : VKF translated from matlab code (https://github.com/payampiray/VKF)
   - vkf_fixed_rdm.stan: stan model file with v0 and lambda fixed
