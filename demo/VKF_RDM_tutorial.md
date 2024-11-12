@@ -1,4 +1,4 @@
-Volatile Kalman Filter + RDM: Stan implementation
+Volatile Kalman Filter + Racing Diffusion Model
 ================
 
 ``` r
