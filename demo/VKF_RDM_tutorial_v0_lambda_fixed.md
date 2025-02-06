@@ -60,7 +60,7 @@ vol_p = signals%>%ggplot(aes(y = volatility,
 muhat_p/vol_p
 ```
 
-<img src="VKF_RDM_tutorial_v0_lambda_fixed_files/figures-gfm/unnamed-chunk-2-1.png" style="display: block; margin: auto auto auto 0;" />
+<img src="VKF_RDM_tutorial_v0_lambda_fixed_files/unnamed-chunk-2-1.png" style="display: block; margin: auto auto auto 0;" />
 
 ### 2.2. Response Model - Racing Diffusion Model
 
@@ -118,7 +118,7 @@ p_rt = dat%>%ggplot(aes(y = rt, x = trial, color = as.factor(accuracy)))+
 p_resp/p_rt
 ```
 
-<img src="VKF_RDM_tutorial_v0_lambda_fixed_files/figures-gfm/unnamed-chunk-3-1.png" style="display: block; margin: auto auto auto 0;" />
+<img src="VKF_RDM_tutorial_v0_lambda_fixed_files/unnamed-chunk-3-1.png" style="display: block; margin: auto auto auto 0;" />
 
 ## 3. Recovery
 
@@ -157,7 +157,7 @@ mcmc_recover_hist(
 )+theme_classic()
 ```
 
-<img src="VKF_RDM_tutorial_v0_lambda_fixed_files/figures-gfm/unnamed-chunk-5-1.png" style="display: block; margin: auto auto auto 0;" />
+<img src="VKF_RDM_tutorial_v0_lambda_fixed_files/unnamed-chunk-5-1.png" style="display: block; margin: auto auto auto 0;" />
 
 ### 3.3. Check sampling
 
@@ -167,4 +167,4 @@ pairs(fit, pars = c("transf_omega",
                     "transf_drift","b_val", "b_vol"))
 ```
 
-![](VKF_RDM_tutorial_v0_lambda_fixed_files/figures-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](VKF_RDM_tutorial_v0_lambda_fixed_files/unnamed-chunk-6-1.png)<!-- -->
