@@ -1,6 +1,6 @@
 # PAM-PredictiveAccumulationModels
 
-This project implements the **PAM framework** in R/Stan. The Perceptual Model component of this implementation utilizes the Volatile Kalman Filter (VKF). This work is still in progress. Because we are currently unable to recover the initial volatility (v0) and volatility learning rate (lambda), we have set them to omega and 0.1, respectively (users can modify these values). 
+This project implements the **PAM framework** in R/Stan. The Perceptual Model component of this implementation utilizes the Volatile Kalman Filter (VKF). This work is still in progress. 
 
 ## Repository Structure
 * ## demo
