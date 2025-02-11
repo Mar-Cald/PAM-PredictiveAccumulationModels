@@ -15,7 +15,9 @@ Run **renv::restore()** to restore project's dependencies from lockfile.
   - pdf_rdm.R : probability density function for the RDM
   - vkf_binary.R : VKF translated from matlab code (https://github.com/payampiray/VKF)
 * ## stan_models
-  - vkf_fixed_rdm.stan: model file with v0 and lambda fixed (RDM code adapted from https://github.com/laurafontanesi/rlssm_R_workshop/blob/main/stan_models/RDM.stan)
+  - vkf_fixed_rdm.stan: model file with v0 and lambda fixed 
+  - vkf_rdm.stan: model file with v0 fixed to omega
+(RDM code adapted from https://github.com/laurafontanesi/rlssm_R_workshop/blob/main/stan_models/RDM.stan)
 
 -----------------------
 ## References
