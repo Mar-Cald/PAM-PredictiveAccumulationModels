@@ -1,6 +1,11 @@
 # PAM-PredictiveAccumulationModels
 
-This project implements the **PAM framework** in R/Stan. The Perceptual Model component of this implementation utilizes the Volatile Kalman Filter (VKF). This work is still in progress. Run renv::restore() to restore project's dependencies from lockfile.
+This project implements the **PAM framework** (https://doi.org/10.48550/arXiv.2411.13203) in R/Stan. 
+
+The Perceptual Model component of this implementation utilizes the Volatile Kalman Filter (VKF). 
+This work is still in progress. 
+
+Run **renv::restore()** to restore project's dependencies from lockfile.
 
 ## Repository Structure
 * ## demo
